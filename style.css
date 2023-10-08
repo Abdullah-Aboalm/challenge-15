@@ -1,0 +1,628 @@
+/* start global rules */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    
+}
+
+/* end global rules */
+
+/* start header */
+
+.header {
+    height: 700px;
+    background-image: url(./images/bg-hero-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: #edfbfe;
+}
+
+.header .logo {
+    width: 1300px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo img {
+    width: 200px;
+}
+
+.header .logo button {
+    border: none;
+    padding: 15px;
+    width: 210px;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 0px 6px 20px #00000018;
+    cursor: pointer;
+}
+
+.header .landing {
+    margin-bottom: 50px;
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .landing .des {
+    width: 550px;
+}
+
+.header .landing .des h1 {
+    font-weight: bold;
+    font-size: 47px;
+}
+
+.header .landing .des p {
+    color: #07252d;
+    font-size: 19px;
+    line-height: 1.4;
+    margin-bottom: 30px;
+}
+
+.header .landing .des button {
+    border: none;
+    padding: 20px;
+    width: 50%;
+    border-radius: 40px;
+    background-color: #fe52c0;
+    color: white;
+    box-shadow: 0px 6px 20px #00000018;
+    cursor: pointer;
+}
+
+.header .landing .des button:hover {
+    background-color: #fc74ca;
+}
+
+.header .landing img {
+    width: 650px;
+}
+
+/* end header */
+
+/* start content */
+.content {
+    margin-top: 150px;
+}
+
+.content .card-1 {
+    margin-bottom: 40px;
+}
+
+.content .card-1,
+.content .card-3 {
+    width: 1250px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.144);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.content .card-2 {
+    width: 1250px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.144);
+    border-radius: 15px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.content .des {
+    width: 500px;
+    margin-left: 30px;
+}
+
+.content h3 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.content p {
+    line-height: 1.4;
+    color: rgba(0, 0, 0, 0.451);
+}
+
+.content img {
+    width: 500px;
+}
+
+.content .ready {
+    width: 700px;
+    height: 250px;
+    margin-top: 100px;
+    background-color: white;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.144);
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 60px;
+}
+
+.content .ready h2 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.content .ready button {
+    border: none;
+    padding: 20px;
+    width: 45%;
+    border-radius: 40px;
+    background-color: #fe52c0;
+    color: white;
+    box-shadow: 0px 6px 20px #00000018;
+    cursor: pointer;
+}
+
+.content .ready button:hover {
+    background-color: #fc74ca;
+}
+
+/* end content */
+
+/* start footer */
+
+.footer {
+    
+    background-color: #00252e;
+}
+
+.footer .des {
+    width: 1300px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer .des .l-f {
+    flex-basis: 30%;
+}
+
+.footer .des .l-f img.logo {
+    margin-left: -15px;
+}
+
+.footer .des .l-f .loc,
+.footer .des .l-f .phone,
+.footer .des .l-f .mail {
+    display: flex;
+    margin-top: 30px;
+}
+
+.footer .des .l-f .loc img,
+.footer .des .l-f .phone img,
+.footer .des .l-f .mail img {
+    margin-right: 20px;
+    width: 15px;
+    height: 15px;
+}
+
+.footer .des p {
+    color: white;
+}
+
+.footer .des .m-f {
+    display: flex;
+    flex-basis: 30%;
+}
+
+.footer .des .m-f .top a,
+.footer .des .m-f .bot a {
+    margin-top: 25px;
+}
+
+.footer .des .m-f .top {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+}
+
+.footer .des .m-f .bot {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.footer .des .m-f a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer .des .m-f a:hover {
+    text-decoration: underline;
+    /* color: ; */
+}
+
+.footer .des .r-f {
+    margin-right: 70px;
+    flex-basis: 15%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer .des .r-f i {
+    color: white;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.face,
+.twitter,
+.insta {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.footer .copy {
+    width: 350px;
+    margin-left: auto;
+    position: relative;
+    top: -50px;
+}
+
+.footer .copy p {
+    color: white;
+}
+
+/* end footer */ 
+
+/* mobile */
+
+@media (max-width: 767px) {
+    
+    .header {
+        height: fit-content;
+        background-image: url(./images/bg-hero-desktop.svg);
+        background-repeat: no-repeat;
+        background-color: #edfbfe;
+    }
+    
+    .header .logo {
+        width: 360px;
+        height: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .header .logo img {
+        width: 150px;
+    }
+    
+    .header .logo button {
+        border: none;
+        padding: 15px;
+        width: 130px;
+        border-radius: 25px;
+        background-color: white;
+        box-shadow: 0px 6px 20px #00000018;
+    }
+    
+    .header .landing {
+        margin-bottom: 50px;
+        width: 360px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .header .landing .des {
+        width: 340px;
+        margin-bottom: 60px;
+    }
+    
+    .header .landing .des h1 {
+        font-weight: bold;
+        font-size: 30px;
+    }
+    
+    .header .landing .des p {
+        color: #07252d;
+        font-size: 19px;
+        line-height: 1.4;
+        margin-bottom: 30px;
+    }
+    
+    .header .landing .des button {
+        border: none;
+        padding: 15px;
+        width: 80%;
+        border-radius: 40px;
+        background-color: #fe52c0;
+        color: white;
+        box-shadow: 0px 6px 20px #00000018;
+        cursor: pointer;
+    }
+    
+    .header .landing .des button:hover {
+        background-color: #fc74ca;
+    }
+    
+    .header .landing img {
+        width: 300px;
+        margin-bottom: 40px;
+    }
+    
+    /* end header */
+    
+    /* start content */
+    .content {
+        margin-top: 100px;
+    }
+    
+    .content .card-1 {
+        margin-bottom: 40px;
+    }
+    
+    .content .card-1,
+    .content .card-3 {
+        width: 360px;
+        height: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+        box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.144);
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .content .card-2 {
+        width: 360px;
+        height: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+        box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.144);
+        border-radius: 15px;
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .content .des {
+        width: 300px;
+        margin-left: unset;
+        margin-bottom: 50px;
+    }
+    
+    .content h3 {
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+    
+    .content p {
+        line-height: 1.4;
+        color: rgba(0, 0, 0, 0.451);
+    }
+    
+    .content img {
+        width: 300px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    
+    .content .ready {
+        width: 360px;
+        height: 200px;
+        margin-top: 80px;
+        background-color: white;
+        box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.144);
+        border-radius: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        top: 60px;
+    }
+    
+    .content .ready h2 {
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
+    
+    .content .ready button {
+        border: none;
+        padding: 15px;
+        width: 70%;
+        border-radius: 40px;
+        background-color: #fe52c0;
+        color: white;
+        box-shadow: 0px 6px 20px #00000018;
+        cursor: pointer;
+    }
+    
+    .content .ready button:hover {
+        background-color: #fc74ca;
+    }
+    
+    /* end content */
+    
+    /* start footer */
+    
+    .footer {
+        background-color: #00252e;
+    }
+    
+    .footer .des {
+        width: 360px;
+        height: 650px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .footer .des .l-f {
+        flex-basis: 30%;
+    }
+    
+    .footer .des .l-f img.logo {
+        margin-left: -15px;
+    }
+    
+    .footer .des .l-f .loc,
+    .footer .des .l-f .phone,
+    .footer .des .l-f .mail {
+        display: flex;
+        margin-top: 30px;
+    }
+    
+    .footer .des .l-f .loc img,
+    .footer .des .l-f .phone img,
+    .footer .des .l-f .mail img {
+        margin-right: 20px;
+        width: 15px;
+        height: 15px;
+    }
+    
+    .footer .des p {
+        color: white;
+    }
+    
+    .footer .des .m-f {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 30%;
+        margin-right: auto;
+        margin-bottom: 50px;
+    }
+    
+    .footer .des .m-f .top a,
+    .footer .des .m-f .bot a {
+        margin-top: 25px;
+    }
+    
+    .footer .des .m-f .top {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    
+    .footer .des .m-f .bot {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .footer .des .m-f a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .footer .des .m-f a:hover {
+        text-decoration: underline;
+    }
+    
+    .footer .des .r-f {
+        margin-right: unset;
+        flex-basis: 60%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .footer .des .r-f i {
+        color: white;
+        font-size: 20px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    
+    .face,
+    .twitter,
+    .insta {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid white;
+        border-radius: 50%;
+        cursor: pointer;
+        margin-right: 10px;
+    }
+    
+    .footer .copy {
+        width: 350px;
+        margin-left: auto;
+        position: relative;
+        top: -40px;
+        margin-top: 50px;
+    }
+    
+    .footer .copy p {
+        color: white;
+    }
+    
+    /* end footer */
+    
+}
+
+
+
