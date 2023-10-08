@@ -510,7 +510,7 @@ body {
     
     .footer .des {
         width: 360px;
-        height: 650px;
+        height: 750px;
         margin-left: auto;
         margin-right: auto;
         display: flex;
@@ -525,6 +525,7 @@ body {
     
     .footer .des .l-f img.logo {
         margin-left: -15px;
+        margin-top: 100px;
     }
     
     .footer .des .l-f .loc,
